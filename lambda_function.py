@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 def lambda_handler(event, context):
-    my_list = [1, 2, 3, 4, 5, 6]
+    my_list = [1, 2, 3, 5, 6]
     print(my_list)
     return {
         'statusCode': 200,
